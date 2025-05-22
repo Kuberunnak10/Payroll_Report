@@ -1,0 +1,42 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# PyCharm project settings
+.idea/
+
+# Virtual environments
+venv/
+.venv/
+env/
+.env/
+
+# Test cache
+.pytest_cache/
+.coverage
+htmlcov/
+
+# mypy, pylint, flake8
+.mypy_cache/
+.dmypy.json
+.pyre/
+*.lint
+
+# Environment variables
+*.env
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Docker
+*.log
+docker-compose.override.yml
+
+.vscode/
+
+# PyInstaller
+*.spec
+build/
+dist/
