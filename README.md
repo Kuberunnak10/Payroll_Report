@@ -43,6 +43,11 @@ Python 3.12
 Если потребуется добавить новый формат отчета или вывода, достаточно создать новый класс отчета и зарегистрировать его в REPORTS в main.py
 
 ### Пример вывода отчета
+1. Таблица
 ![image](https://github.com/user-attachments/assets/c44eeb24-93df-4a6d-81f8-26d647b34c81)
+
+2. JSON
+![image](https://github.com/user-attachments/assets/515ca5b4-ac49-4eb7-b581-f1184bacb3bb)
+
 
 
