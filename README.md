@@ -20,8 +20,13 @@ docker build -t payroll_app .
 ```
 
 ### 2. Запуск приложения
+Вариант запуска в формате таблицы:
 ```bash
 docker run -it --rm payroll_app python3 main.py data/data1.csv data/data2.csv data/data3.csv --report payout
+```
+Вариант запуска в формате json:
+```bash
+docker run -it --rm payroll_app python3 main.py data/data1.csv data/data2.csv data/data3.csv --report payout --format json
 ```
 
 ### 3. Запуск тестов
