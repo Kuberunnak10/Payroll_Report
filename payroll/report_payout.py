@@ -39,9 +39,9 @@ class JSONOutput(ReportOutput):
                 payout = emp["hours_worked"] * emp["hourly_rate"]
                 output[department].append({
                     "name": emp["name"],
-                    "hours_worked": emp["hours_worked"],
-                    "hourly_rate": emp["hourly_rate"],
-                    "payout": payout
+                    "hours_worked": int(emp["hours_worked"]),
+                    "hourly_rate": int(emp["hourly_rate"]),
+                    "payout": int(payout)
                 })
         print(json.dumps(output, indent=4))
 
