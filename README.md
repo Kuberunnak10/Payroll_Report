@@ -19,12 +19,12 @@
 docker build -t payroll_app .
 ```
 
-### Запуск приложения
+### 2. Запуск приложения
 ```bash
 docker run -it --rm payroll_app python3 main.py data/data1.csv data/data2.csv data/data3.csv --report payout
 ```
 
-### Запуск тестов
+### 3. Запуск тестов
 ```bash
 docker run -it --rm payroll_app pytest -s -v
 
